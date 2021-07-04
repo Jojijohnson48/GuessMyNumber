@@ -1,0 +1,2 @@
+# GuessMyNumber
+This is a game-based project in Javascript which helps the beginner to learn the basics of Javascript while handling click events. In this game, there is a secret number which the player has to guess and for each wrong and right guesses, the score and the high score gets updated. The project also tracks the number of chances that the player has, to win the game, which gets reduced after each wrong guess. The player wins the game when he/she correctly guesses the secret number.
