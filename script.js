@@ -71,7 +71,7 @@ document.querySelector('.check').addEventListener('click', function () {
     }, 1000);
     secretNumber = Math.trunc(Math.random() * 20) + 1;
     console.log('our secret number is: ' + secretNumber);
-  } else if (guess !== secretNumber) {
+  } else if (guess != secretNumber) {
     document.querySelector('.number').textContent = '?';
     if (guess > secretNumber) {
       document.querySelector('.message').textContent = 'Too High!';
